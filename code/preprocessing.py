@@ -17,7 +17,6 @@ Usage:
        [2] --output_file (str): './kaggle/working/womenclothing/customer_reviews.csv' (default): Path to the output file
 
 : 22 May 24
-: zachcolinwolpe@gmail.com
 ------------------------------------------------------------
 """
 
@@ -64,8 +63,8 @@ def map_rating_to_sentiment(rating):
 
 if __name__ == "__main__":
     # default args
-    input_file = './Womens Clothing E-Commerce Reviews.csv'
-    output_file = './kaggle/working/womenclothing/customer_reviews.csv'
+    input_file = './data/raw/Womens Clothing E-Commerce Reviews.csv'
+    output_file = './data/raw/customer_reviews.csv'
 
     # Parse the input and output file paths
     parser = argparse.ArgumentParser()
