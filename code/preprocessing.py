@@ -64,7 +64,7 @@ def map_rating_to_sentiment(rating):
 if __name__ == "__main__":
     # default args
     input_file = './data/raw/Womens Clothing E-Commerce Reviews.csv'
-    output_file = './data/raw/customer_reviews.csv'
+    output_file = './data/processed/customer_reviews.csv'
 
     # Parse the input and output file paths
     parser = argparse.ArgumentParser()
